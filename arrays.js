@@ -34,6 +34,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 function removeElementFromBeginningOfArray(array){
   array.slice(1);
   array = array.slice(1);
+=======
+  array.slice("0");
+>>>>>>> f62ccaeaf64df0f377ca2d7f41eda992727cdc09
   return array;
 }
 
@@ -44,7 +47,10 @@ function destructivelyRemoveElementFromEndOfArray(array){
 
 function removeElementFromEndOfArray(array){
 array.slice(0, array.length - 1);
+<<<<<<< HEAD
 array = array.slice(0, array.length - 1);
+=======
+>>>>>>> f62ccaeaf64df0f377ca2d7f41eda992727cdc09
 return array;
 }
 
